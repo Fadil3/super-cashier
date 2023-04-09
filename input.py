@@ -1,18 +1,18 @@
-def inputNama():
+def input_nama():
     nama = input("Masukkan nama barang: ")
     if len(nama) == 0:
-        print("Masukkan nama barang")
-        return inputNama()
+        print("===\nMasukkan nama barang !!!\n===")
+        return input_nama()
     return nama
 
 
-def inputInteger(nama):
+def input_integer(nama):
     try:
         angka = int(input(f"Masukkan {nama} barang: "))
         if angka < 0:
-            print("Masukkan angka positif")
-            return inputInteger()
+            print("===\nMasukkan angka positif\n===")
+            return input_integer(nama)
         return angka
     except ValueError:
         print("Masukkan angka !!!")
-        return inputInteger()
+        return input_integer(nama)
