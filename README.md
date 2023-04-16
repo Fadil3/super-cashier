@@ -24,6 +24,11 @@ Andi adalah seorang pemilik supermarket besar di salah satu kota di Indonesia. A
 Customer bisa langsung memasukkan item yang dibeli, jumlah item yang dibeli, dan harga item yang dibeli dan fitur yang lain.
 Customer yang tidak berada di kota tersebut bisa membeli barang dari supermarket tersebut.
 
+## Requirements / Objectives
+- Membuat proses untuk tambah, update, dan delete barang.
+- Hitung diskon dengan syarat dan ketentuan yang berlaku.
+- Customer bisa checkout dan datanya disimpan ke database. 
+
 ## Fitur yang tersedia
     +-------------+--------+
     |   Menu      | Hotkey |
@@ -133,6 +138,10 @@ def check_out(data):
 
 7. `Keluar` berfungsi untuk keluar dari loop program.
 
+## Alur Program
+
+![supercashier drawio (1)](https://user-images.githubusercontent.com/55126764/232320454-9de07425-022d-4067-84ce-29d87ec24ce6.png)
+
 ## Cara Menggunakan Program
 1. Clone / download repository ini.
 2. Buka terminal ditempat file program didownload.
@@ -159,5 +168,7 @@ def check_out(data):
 Berhasil masuk ke database
 ![image](https://user-images.githubusercontent.com/55126764/232301719-609bc074-1318-481a-aa27-a6f37873895b.png)
 
-
+## Conclusion/Future Work
+- Membuat tampilan terminal lebih rapih dan menarik
+- Validasi semua input customer
 
